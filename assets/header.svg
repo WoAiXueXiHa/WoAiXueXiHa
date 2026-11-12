@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">VECT system online</title>
+  <desc id="desc">A dark pixel terminal banner for Vect's GitHub profile.</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#142033" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a101c"/>
+      <stop offset="1" stop-color="#060910"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="280" rx="8" fill="url(#panel)"/>
+  <rect x="1" y="1" width="998" height="278" rx="7" fill="none" stroke="#26334a" stroke-width="2"/>
+  <rect x="12" y="12" width="976" height="256" fill="url(#grid)" opacity=".72"/>
+
+  <g shape-rendering="crispEdges">
+    <rect x="42" y="42" width="16" height="16" fill="#36f1cd"/>
+    <rect x="58" y="42" width="16" height="16" fill="#36f1cd"/>
+    <rect x="74" y="42" width="16" height="16" fill="#36f1cd"/>
+    <rect x="42" y="58" width="16" height="16" fill="#36f1cd"/>
+    <rect x="74" y="58" width="16" height="16" fill="#36f1cd"/>
+    <rect x="42" y="74" width="16" height="16" fill="#36f1cd"/>
+    <rect x="58" y="74" width="16" height="16" fill="#36f1cd"/>
+    <rect x="74" y="74" width="16" height="16" fill="#36f1cd"/>
+
+    <rect x="74" y="58" width="8" height="8" fill="#071018"/>
+    <rect x="50" y="58" width="8" height="8" fill="#071018"/>
+
+    <rect x="910" y="190" width="12" height="12" fill="#ff4d9d"/>
+    <rect x="922" y="202" width="12" height="12" fill="#ff4d9d"/>
+    <rect x="934" y="214" width="12" height="12" fill="#ff4d9d"/>
+    <rect x="946" y="226" width="12" height="12" fill="#ff4d9d"/>
+
+    <rect x="42" y="222" width="8" height="8" fill="#36f1cd"/>
+    <rect x="54" y="222" width="8" height="8" fill="#36f1cd" opacity=".75"/>
+    <rect x="66" y="222" width="8" height="8" fill="#36f1cd" opacity=".45"/>
+  </g>
+
+  <text x="126" y="78" fill="#7b8aa3" font-family="Consolas, Monaco, monospace" font-size="18" letter-spacing="2">VECT@GITHUB:~$ ./START</text>
+  <text x="126" y="142" fill="#e8f0ff" font-family="Consolas, Monaco, monospace" font-size="52" font-weight="700" letter-spacing="3">SYSTEM ONLINE</text>
+  <text x="128" y="184" fill="#36f1cd" font-family="Consolas, Monaco, monospace" font-size="20" letter-spacing="2" filter="url(#glow)">GO BACKEND  /  SYSTEMS  /  BUILDING</text>
+
+  <g font-family="Consolas, Monaco, monospace" font-size="14">
+    <rect x="128" y="213" width="130" height="30" fill="#0c1722" stroke="#36f1cd"/>
+    <text x="144" y="233" fill="#36f1cd">STATUS: LEARNING</text>
+    <rect x="270" y="213" width="140" height="30" fill="#15101a" stroke="#ff4d9d"/>
+    <text x="286" y="233" fill="#ff83b8">MODE: HANDS-ON</text>
+  </g>
+</svg>
